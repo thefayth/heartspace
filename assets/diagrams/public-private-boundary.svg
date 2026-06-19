@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Heartspace public and private boundary</title>
+  <desc id="desc">Diagram showing public documentation and visuals separated from private source, prompts, user data, and deployment systems.</desc>
+  <rect width="1280" height="720" fill="#fffaf2"/>
+  <text x="80" y="96" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#2a071f">Public surface. Private engine.</text>
+  <rect x="80" y="150" width="500" height="430" rx="22" fill="#ffffff" stroke="#d84f72" stroke-width="3"/>
+  <rect x="700" y="150" width="500" height="430" rx="22" fill="#f3ebe8" stroke="#075f62" stroke-width="3"/>
+  <text x="124" y="210" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#2a071f">Public</text>
+  <text x="744" y="210" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#2a071f">Protected</text>
+  <g font-family="Arial, sans-serif" font-size="20" fill="#493543">
+    <text x="124" y="270">README and public docs</text>
+    <text x="124" y="318">Hero, banner, social assets</text>
+    <text x="124" y="366">Workflow diagrams</text>
+    <text x="124" y="414">WordPress page draft</text>
+    <text x="124" y="462">Ownership and policies</text>
+    <text x="744" y="270">Source code</text>
+    <text x="744" y="318">Prompts and agent instructions</text>
+    <text x="744" y="366">User data and account exports</text>
+    <text x="744" y="414">Secrets and deployment systems</text>
+    <text x="744" y="462">Private workflows</text>
+  </g>
+  <line x1="640" y1="150" x2="640" y2="580" stroke="#c88932" stroke-width="6" stroke-dasharray="12 12"/>
+  <text x="594" y="620" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#2a071f">Boundary</text>
+</svg>
+

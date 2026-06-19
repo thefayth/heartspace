@@ -1,0 +1,17 @@
+flowchart LR
+  User["Adult user"] --> Input["Private relationship context"]
+  Input --> Modes["Heartspace modes"]
+  Modes --> Lab["Message Lab"]
+  Modes --> Prep["Date Prep"]
+  Modes --> Memory["Relationship Memory"]
+  Modes --> Reality["Reality Check"]
+  Lab --> Review["Consent and safety review"]
+  Prep --> Review
+  Memory --> Review
+  Reality --> Review
+  Review --> Output["User-owned next step"]
+  Output --> Export["Export or delete controls"]
+  Output --> Public["Public project surface"]
+  Public --> GitHub["GitHub protected surface"]
+  Public --> WordPress["FaithCheltenham.com project page"]
+

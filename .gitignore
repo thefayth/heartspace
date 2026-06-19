@@ -1,0 +1,10 @@
+# Keep public export clean
+.DS_Store
+Thumbs.db
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+

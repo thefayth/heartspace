@@ -1,0 +1,18 @@
+flowchart TB
+  subgraph Public["Public surface"]
+    Readme["README and docs"]
+    Visuals["Hero, banner, social, diagrams"]
+    WordPress["WordPress page draft"]
+    Policies["Ownership and privacy policies"]
+  end
+
+  subgraph Private["Private engine"]
+    Source["Source code"]
+    Prompts["Prompts and agent instructions"]
+    Data["User data and exports"]
+    Deploy["Deployment systems and secrets"]
+  end
+
+  Public --> Boundary["Boundary: explain without exposing"]
+  Boundary -. protected .-> Private
+
