@@ -2,7 +2,7 @@
 
 ## Current Status
 
-Protected public export prepared.
+Protected public export prepared and published.
 
 ## Project Maturity
 
@@ -15,12 +15,12 @@ protection.
 
 - Base slug: `heartspace`
 - Chosen slug: `heartspace`
-- Intended owner: `thefayth`
-- Intended URL: `https://github.com/thefayth/heartspace`
-- Version status: base slug selected; remote availability not verified because
-  GitHub CLI authentication is invalid in this session.
+- Owner: `thefayth`
+- URL: `https://github.com/thefayth/heartspace`
+- Version status: base slug selected and published.
 
 ## Publication Status
 
-Local export only. No GitHub repository was created and no push was performed.
-
+Published to GitHub from `_github_public_export/` only. Private app source,
+prompts, data, secrets, deployment files, and operational infrastructure remain
+outside the public repository.

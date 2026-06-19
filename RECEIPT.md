@@ -5,17 +5,17 @@
 - Project name: Heartspace
 - Base slug: `heartspace`
 - Chosen repository slug: `heartspace`
-- Version status: base slug selected; remote availability not verified because
-  GitHub CLI authentication for `thefayth` is invalid.
-- Intended repository URL: `https://github.com/thefayth/heartspace`
+- Version status: base slug selected and published.
+- Repository URL: `https://github.com/thefayth/heartspace`
+- Initial public export commit: `c9275fd`
 
 ## GitHub Checks
 
 - `gh --version`: passed, GitHub CLI 2.92.0.
-- `gh auth status`: failed, stored `thefayth` token is invalid.
+- `gh auth status` with proxy variables cleared: passed for `thefayth`.
 - `git status`: project root is not a git repository.
-- Remote repository creation: not performed.
-- Push: not performed.
+- Remote repository creation: completed with GitHub CLI.
+- Push: completed to `origin/main`.
 
 ## Files Created
 
@@ -62,7 +62,5 @@ Default privacy status: READY AFTER FAITH REVIEW.
 
 ## Recommended Next Action
 
-Re-authenticate GitHub CLI for `thefayth`, verify whether
-`thefayth/heartspace` is available, then initialize and push only from
-`_github_public_export/`.
-
+Review the public repo, then decide whether to publish the WordPress page and
+link Heartspace from FaithCheltenham.com.

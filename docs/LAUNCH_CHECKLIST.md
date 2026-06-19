@@ -11,20 +11,20 @@
 - [x] Add WordPress draft.
 - [x] Add image audit.
 - [x] Add receipt.
-- [ ] Re-authenticate GitHub CLI for `thefayth`.
-- [ ] Check whether `thefayth/heartspace` exists.
-- [ ] If unavailable, use `heartspace-v2`, then `heartspace-v3`, etc.
-- [ ] Initialize git from `_github_public_export/` only.
-- [ ] Commit public export.
-- [ ] Create GitHub repository.
-- [ ] Push.
+- [x] Authenticate GitHub CLI for `thefayth` with proxy variables cleared.
+- [x] Check whether `thefayth/heartspace` exists.
+- [x] Use base slug `heartspace`.
+- [x] Initialize git from `_github_public_export/` only.
+- [x] Commit public export.
+- [x] Create GitHub repository.
+- [x] Push to `origin/main`.
 
 ## Selected Repository Slug
 
 - Base slug: `heartspace`
 - Chosen slug: `heartspace`
-- Version status: base slug selected; remote availability not verified.
-- Intended URL: `https://github.com/thefayth/heartspace`
+- Version status: base slug selected and published.
+- URL: `https://github.com/thefayth/heartspace`
 
 ## WordPress
 
@@ -40,4 +40,3 @@
 - [x] Secrets excluded.
 - [x] Operational infrastructure excluded.
 - [x] Privacy review created.
-

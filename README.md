@@ -70,9 +70,9 @@ This public repository does not include:
 ## Current Status
 
 Heartspace exists as an active private project with local and production
-planning receipts. The protected public repository package is prepared for
-GitHub publication, but remote repository creation was not completed in this
-session because GitHub CLI authentication for `thefayth` is invalid.
+planning receipts. This protected public repository has been published at
+https://github.com/thefayth/heartspace while the private engine, source,
+prompts, data, and deployment system remain protected.
 
 ## Ownership
 
@@ -87,4 +87,3 @@ training, scraping, or implied permission is granted.
 - Planned public path: https://faithcheltenham.com/projects/heartspace/
 - Project docs: `docs/`
 - WordPress draft: `wordpress/page.md`
-
